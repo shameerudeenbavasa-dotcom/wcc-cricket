@@ -2,19 +2,16 @@
   "name": "wcc-cricket",
   "version": "1.0.0",
   "description": "WCC Cricket - Live Cricket Streaming App",
-  "main": "expo-router/entry",
+  "main": "index.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo build:android",
-    "ios": "expo build:ios",
-    "web": "expo start --web",
-    "eject": "expo eject"
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
   },
   "dependencies": {
     "expo": "^51.0.0",
     "expo-camera": "^14.1.0",
-    "expo-microphone": "^13.0.0",
-    "expo-permissions": "^14.2.0",
     "expo-av": "^14.0.0",
     "react": "^18.3.0",
     "react-native": "^0.74.0",
@@ -22,7 +19,8 @@
     "react-native-gesture-handler": "^2.14.0",
     "react-native-reanimated": "^3.5.0",
     "react-native-screens": "^3.29.0",
-    "expo-status-bar": "^1.12.0"
+    "expo-status-bar": "^1.12.0",
+    "expo-router": "^3.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",
@@ -32,16 +30,14 @@
     "name": "WCC Cricket",
     "slug": "wcc-cricket",
     "version": "1.0.0",
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTabletMode": true,
       "bundleIdentifier": "com.wcccricket.app"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#080C08"
-      },
       "package": "com.wcccricket",
       "permissions": [
         "CAMERA",
@@ -52,9 +48,6 @@
         "READ_PHONE_STATE"
       ],
       "versionCode": 1
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
     }
   }
 }
