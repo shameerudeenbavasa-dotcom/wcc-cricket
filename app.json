@@ -6,10 +6,11 @@
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
     "icon": "./icon.png",
-    "plugins": [
-      "expo-camera",
-      "expo-av"
-    ],
+    "splash": {
+      "image": "./icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#080C08"
+    },
     "assetBundlePatterns": [
       "**/*"
     ],
