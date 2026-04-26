@@ -9,7 +9,6 @@
       "**/*"
     ],
     "ios": {
-      "supportsTabletMode": true,
       "bundleIdentifier": "com.wcccricket.app"
     },
     "android": {
