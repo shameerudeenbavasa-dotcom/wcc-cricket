@@ -6,6 +6,10 @@
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
     "icon": "./icon.png",
+    "plugins": [
+      "expo-camera",
+      "expo-av"
+    ],
     "assetBundlePatterns": [
       "**/*"
     ],
