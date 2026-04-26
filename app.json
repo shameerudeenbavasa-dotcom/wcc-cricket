@@ -5,12 +5,6 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
-    "icon": "./icon.png",
-    "splash": {
-      "image": "./icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#080C08"
-    },
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -19,10 +13,6 @@
     },
     "android": {
       "package": "com.wcccricket",
-      "adaptiveIcon": {
-        "foregroundImage": "./icon.png",
-        "backgroundColor": "#080C08"
-      },
       "permissions": [
         "CAMERA",
         "RECORD_AUDIO",
