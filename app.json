@@ -4,13 +4,7 @@
     "slug": "wcc-cricket",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#080C08"
-    },
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -19,10 +13,6 @@
       "bundleIdentifier": "com.wcccricket.app"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#080C08"
-      },
       "package": "com.wcccricket",
       "permissions": [
         "CAMERA",
@@ -33,8 +23,10 @@
       ],
       "versionCode": 1
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "441796f3-adb4-4dea-b385-4513e72a8d60"
+      }
     }
   }
 }
