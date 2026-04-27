@@ -11,29 +11,30 @@
       "supportsTablet": true,
       "infoPlist": {
         "NSCameraUsageDescription": "WCC needs camera access to stream the live match.",
-        "NSMicrophoneUsageDescription": "WCC needs microphone access for commentary."
+        "NSMicrophoneUsageDescription": "WCC needs microphone for commentary."
       }
     },
     "android": {
       "package": "com.wcccricket",
       "versionCode": 1,
       "permissions": [
-        "CAMERA",
-        "RECORD_AUDIO",
-        "MODIFY_AUDIO_SETTINGS",
-        "INTERNET",
-        "ACCESS_NETWORK_STATE"
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.BLUETOOTH",
+        "android.permission.ACCESS_WIFI_STATE"
       ]
     },
     "plugins": [
       [
-        "expo-camera",
+        "react-native-agora",
         {
-          "cameraPermission": "Allow WCC to use the camera for live streaming.",
-          "microphonePermission": "Allow WCC to use the microphone for commentary."
+          "cameraPermission": "Allow WCC to use camera for live streaming.",
+          "microphonePermission": "Allow WCC to use microphone for commentary."
         }
-      ],
-      "expo-av"
+      ]
     ],
     "extra": {
       "eas": {
