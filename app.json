@@ -40,9 +40,16 @@
         {
           "cameraPermission": "Allow WCC to use the camera for live streaming.",
           "microphonePermission": "Allow WCC to use the microphone for commentary."
+"cameraPermission": "Allow WCC to use the camera for live streaming.",
+          "microphonePermission": "Allow WCC to use the microphone for commentary."
         }
       ],
       "expo-av"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "441796f3-adb4-4dea-b385-4513e72a8d60"
+      }
+    }
   }
 }
