@@ -8,8 +8,20 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "WCC Cricket needs camera access to live stream matches."
+        }
+      ]
+    ],
     "ios": {
-      "bundleIdentifier": "com.wcccricket.app"
+      "bundleIdentifier": "com.wcccricket.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "WCC Cricket needs camera access to live stream matches.",
+        "NSMicrophoneUsageDescription": "WCC Cricket needs microphone access for live audio."
+      }
     },
     "android": {
       "package": "com.wcccricket",
