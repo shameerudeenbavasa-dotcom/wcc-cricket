@@ -40,8 +40,6 @@
         {
           "cameraPermission": "Allow WCC to use the camera for live streaming.",
           "microphonePermission": "Allow WCC to use the microphone for commentary."
-"cameraPermission": "Allow WCC to use the camera for live streaming.",
-          "microphonePermission": "Allow WCC to use the microphone for commentary."
         }
       ],
       "expo-av"
