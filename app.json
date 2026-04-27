@@ -6,11 +6,6 @@
     "orientation": "portrait",
     "icon": "./icon.png",
     "userInterfaceStyle": "dark",
-    "splash": {
-      "image": "./icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#080C08"
-    },
     "ios": {
       "bundleIdentifier": "com.wcccricket.app",
       "supportsTablet": true,
@@ -28,11 +23,7 @@
         "MODIFY_AUDIO_SETTINGS",
         "INTERNET",
         "ACCESS_NETWORK_STATE"
-      ],
-      "adaptiveIcon": {
-        "foregroundImage": "./icon.png",
-        "backgroundColor": "#080C08"
-      }
+      ]
     },
     "plugins": [
       [
