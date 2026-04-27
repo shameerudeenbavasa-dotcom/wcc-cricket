@@ -1,14 +1,17 @@
 {
   "build": {
     "preview": {
+      "developmentClient": false,
       "android": {
-        "buildType": "apk"
+        "buildType": "apk",
+        "gradleCommand": ":app:assembleRelease"
       },
       "env": {
         "EAS_BUILD_NO_EXPO_GO_WARNING": "true"
       }
     },
     "production": {
+      "developmentClient": false,
       "android": {
         "buildType": "apk"
       },
