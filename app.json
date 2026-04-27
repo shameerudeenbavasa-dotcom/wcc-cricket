@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "WCC Cricket",
-    "slug": "wcc-cricket",
+    "slug": "wcc",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./icon.png",
@@ -16,7 +16,7 @@
       "supportsTablet": true,
       "infoPlist": {
         "NSCameraUsageDescription": "WCC needs camera access to stream the live match.",
-        "NSMicrophoneUsageDescription": "WCC needs microphone access to broadcast match commentary."
+        "NSMicrophoneUsageDescription": "WCC needs microphone access for commentary."
       }
     },
     "android": {
@@ -43,11 +43,6 @@
         }
       ],
       "expo-av"
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "441796f3-adb4-4dea-b385-4513e72a8d60"
-      }
-    }
+    ]
   }
 }
